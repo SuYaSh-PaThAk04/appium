@@ -533,3 +533,4 @@ export {main, init, resolveAppiumHome};
  * @template {CliExtensionSubcommand|void} [SubCmd=void]
  * @typedef {import('appium/types').ParsedArgs<Cmd, SubCmd>} ParsedArgs
  */
+
