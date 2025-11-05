@@ -43,3 +43,8 @@ The changelog links used for these modules lead to the last version of their cha
 * [eslint-config-appium](https://github.com/appium/appium/blob/4b3a8c2197a587ec5a2606b662e4e7667a7852cb/packages/eslint-config-appium/CHANGELOG.md) ([removal PR](https://github.com/appium/appium/pull/20856))
 * [gulp-plugins](https://github.com/appium/appium/blob/0823f0b60e40395cd1dc3b72cfa3c0092bc81302/packages/gulp-plugins/CHANGELOG.md) ([removal PR](https://github.com/appium/appium/pull/17943))
 * [typedoc-plugin-appium](https://github.com/appium/appium/blob/d6204b6902074210943d7bbbf72d139b9b170a20/packages/typedoc-plugin-appium/CHANGELOG.md) ([removal PR](https://github.com/appium/appium/pull/19465))
+
+* ### Added
+- Added support in `main()` for handling embedded drivers passed via `useDrivers`.
+- Added unit test `main.spec.js` to verify that embedded drivers are recognized and handled properly.
+
